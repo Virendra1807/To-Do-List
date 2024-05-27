@@ -59,13 +59,10 @@ const addTodo = (item) =>{
     listItem.querySelector("#edit").addEventListener(
         "click",
         function(){
-            const inputReFill = document.querySelector("#item");
-            
-            inputReFill.setAttribute = (this.item," ");
-            // listItem.remove();
-            alert("Still Working on this feature")
-
-
+            let text = item;
+            alert("Now you can edit your Task");
+            document.getElementById("item").value = text;
+            listItem.remove();
         }
     );
 
