@@ -62,7 +62,8 @@ const addTodo = (item) =>{
             const inputReFill = document.querySelector("#item");
             
             inputReFill.setAttribute = (this.item," ");
-            listItem.remove();
+            // listItem.remove();
+            alert("Still Working on this feature")
 
 
         }
